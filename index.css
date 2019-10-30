@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body{
+    background-color: #1D1F2A;
+    color: #B9DEC7;       
+}
+
+header{
+    text-align: center;
+    padding: 5%;
+    
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("./header_image.jpg");
+}
+
+header .title{
+    background-color: #315ab4;
+    color:white;
+    flex: 1;
+    font-weight: bolder;
+    padding: 2%;
+    border-radius: 15px;
+    
+}
+
+.title h1{
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+}
+
+main{
+    
+    margin-top: 2em;
+    text-align: center;
+}
+
+main h2{
+    color: #1D1F2A;
+    font-weight: bolder;
+    font-size: 36px;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white;
+}
+
+.downloader{
+   display: flex;
+   flex-direction: column; 
+   text-align: justify;
+   
+   margin-top: 2%;
+   margin-bottom: 2%;;
+}
+.downloader button{
+    border: none;
+    border-radius: 5px;
+    background-color: #f35354;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10%;
+    margin-left: 1%;
+}
+
+.downloader button:hover{
+    background-color: #315ab4;
+}
+
+.downloader p{
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+.downloader tr td{
+    padding: 5%;
+}
+
+.downloader table{
+    margin: auto;
+}
+
+
+footer{
+    
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: #315ab4;
+    color:  white;
+    position: relative;
+    bottom: 0;
+    justify-content: space-between;
+    padding-top:2% ;
+    padding-bottom:2% ;
+    font-size: 18px;
+}
+footer p{
+    margin-left: 10%;
+}
+
+footer a{
+    float: right;
+    margin-right: 10%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
